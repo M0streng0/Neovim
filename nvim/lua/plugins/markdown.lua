@@ -88,6 +88,11 @@ date: {{ date }}
 						middle = "─",
 					},
 				},
+				perspective = {
+					priority = "current",
+					fallback = "root",
+					root_tell = 'index.md',
+				},
 			})
 		end,
 	},
